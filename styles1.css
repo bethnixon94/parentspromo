@@ -1,0 +1,215 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background:#FF9DA8;
+}
+
+.curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.curve {
+    fill: #FFC79A;
+}
+
+h1 {
+	font-family: "Bubblegum Sans", sans-serif;
+	font-size: 40px;
+}
+
+header {
+	margin-top: 115px;
+	background:#FFFBAC;
+	max-width: 700px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 100rem 100rem 100rem 100rem;
+}
+
+ul {
+	list-style: none;
+	align-content: center;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+li {
+	display: inline-block;
+	font-family: "Patrick Hand SC", cursive;
+	font-size: 32;
+}
+
+h2 {
+	background: #87D8FD;
+	max-width: 800px;
+	width: 600px;
+	font-size: 26px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Bubblegum Sans", sans-serif;
+	letter-spacing: 1px;
+	border-radius: 10rem 10rem 10rem 10rem;
+	text-align: center;
+}
+
+h3 {
+	font-family: "Bubblegum Sans", sans-serif;
+	font-size: 23px;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h4 {
+	font-family: "Bubblegum Sans", sans-serif;
+	font-size: 20px;
+}
+
+section {
+	background-color: #87D8FD;
+	border-radius: 10rem 10rem 10rem 10rem;
+	max-width: 800px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main {
+	max-width: 800px;
+	margin: 0 auto;
+	background:#FFFBAC;
+	border-radius: 10rem 10rem 10rem 10rem;
+	padding: 1px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+	margin-top: 10px;
+}
+
+p {
+	text-align: center;
+	max-width: 600px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Unkempt", cursive;
+	padding-bottom: 1px;
+}
+
+.calendar {
+	margin: 0 auto;
+	max-width: 800px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: black;
+	display: inline-block;
+	background-color: #CAFFBF;
+	margin-bottom: 20px;
+}
+
+.month {
+	text-align: center;
+	letter-spacing: 2px;
+	border: solid black 1px;
+}
+
+.table th td {
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	table-layout: fixed;
+	border: 5px solid black;
+}
+
+tr th td {
+	padding: 15px;
+}
+
+th {
+	background: #F0EFEF;
+}
+
+button {
+	border-radius: 100%;
+	font-family: "Unkempt", cursive;
+}
+
+article {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+footer {
+	font-family: "Patrick Hand SC", cursive;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.bottom {
+	position: relative;
+}
+
+.curve2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.curve2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.curve2 .shape-fill {
+    fill: #FFC79A;
+}
+
+.patrick-hand-sc-regular {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bubblegum-sans-regular {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-regular {
+  font-family: "Unkempt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unkempt-bold {
+  font-family: "Unkempt", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
